@@ -8,18 +8,18 @@ Api Rest Spring Boot para operações com planetas que expoe as funcionalidades:
 - Busca de planeta por nome na base de dados local
 - Listagem de todos os planetas cadastrados
 
+
+
 __Implantação__
-- Implantada (temporariamente) na Google Cloud Plataform, disponível em [https://swapi.dev/](https://swapi.dev)
+- Implantada (temporariamente) na Google Cloud Plataform, disponível em [http://34.74.31.41:8081](http://34.74.31.41:8081)
+- A API se integra com a API pública SWAPI, [https://swapi.dev/about](https://swapi.dev/about) para obter os filmes onde cada planeta tem aparição
+- Banco de dados noSQL MongoDB implantado na plataforma em nuvem MongoDB, [https://docs.atlas.mongodb.com](https://docs.atlas.mongodb.com)
+- Operações documentadas através da API Swagger2, disponível em [http://34.74.31.41:8081/swagger-ui.html](http://34.74.31.41:8081/swagger-ui.html)
 
-- A API se integra com a API pública [https://swapi.dev/](https://swapi.dev) para obter os filmes onde cada planeta tem aparição
-
-- Banco de dados noSQL MongoDB implantado na plataforma em nuvem [https://mongodb.com](https://mongodb.com)
-
-- Operações estão documentadas através da API Swagger, disponível em [https://swapi.dev/](https://swapi.dev)
 
 
 __Exemplos__
-- Exemplo da operação de cadastro de planeta
+- Body do request: cadastro de planeta
 
 ```json
 {
@@ -30,7 +30,8 @@ __Exemplos__
 
 ```
 
-- Exemplo de retorno da busca de planeta
+- Body do response: busca de planeta
+
 ```json
   {
     "id": "6130b344dc7ab21c11489216",
@@ -41,3 +42,7 @@ __Exemplos__
   }
 
 ```
+
+__Desenvolvedor__
+
+Edmilson Pontes ([edmilsonspontes@gmail.com](edmilsonspontes@gmail.com))

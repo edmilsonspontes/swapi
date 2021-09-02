@@ -37,7 +37,7 @@ public class SwaggerConfig {
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Star Wars API - Manutenção de planetas")
-				.description("Aplicação para realizar operações dos planetas de Star Wars. <br/> Realiza integração com a api pública https://swapi.dev/api/")
+				.description("Aplicação para realizar operações dos planetas de Star Wars. <br/> Realiza integração com a api pública https://swapi.dev/about")
 				.version("1.0.0")
 				.license("Apache License Version 2.0")
 				.licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
