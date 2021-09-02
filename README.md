@@ -19,7 +19,6 @@ __Implantação__
 
 
 __Exemplos__
-
 - Exemplo da operação de cadastro de planeta
 
 ```json
