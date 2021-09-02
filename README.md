@@ -9,13 +9,13 @@ Api Rest Spring Boot para operações com planetas que expoe as funcionalidades:
 - Listagem de todos os planetas cadastrados
 
 __Implantação__
-- Implantada (temporariamente) na Google Cloud Plataform, disponível em [https://swapi.dev/](https://swapi.dev/).
+- Implantada (temporariamente) na Google Cloud Plataform, disponível em [https://swapi.dev/](https://swapi.dev)
 
-- A API se integra com a API pública [https://swapi.dev/](https://swapi.dev/) para obter os filmes onde cada planeta tem aparição.
+- A API se integra com a API pública [https://swapi.dev/](https://swapi.dev) para obter os filmes onde cada planeta tem aparição
 
-- Banco de dados noSQL MongoDB implantado na plataforma em nuvem [https://mongodb.com](https://mongodb.com).
+- Banco de dados noSQL MongoDB implantado na plataforma em nuvem [https://mongodb.com](https://mongodb.com)
 
-- Operações estão documentadas através da API Swagger, disponível em [https://swapi.dev/](https://swapi.dev/).
+- Operações estão documentadas através da API Swagger, disponível em [https://swapi.dev/](https://swapi.dev)
 
 
 __Exemplos__
